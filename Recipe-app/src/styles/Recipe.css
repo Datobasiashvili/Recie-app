@@ -1,0 +1,57 @@
+.recipe-information {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container,
+.description {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-page-name {
+    font-size: 35px;
+}
+
+.recipe-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    font-size: 50px;
+    color: rgb(206, 56, 1);
+}
+
+.recipe-title::after {
+    content: '';
+    display: block;
+    width: 450px;
+    height: 3px;
+    background-color: black;
+    margin: 10px 0 10px 0;
+}
+
+.description{
+    flex-direction: column;
+}
+
+.description li{
+    margin: 10px 0 10px 0;
+    font-size: 21px;
+}
+.description ul {
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+

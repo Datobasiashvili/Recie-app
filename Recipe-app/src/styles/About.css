@@ -1,0 +1,64 @@
+.about-us-container {
+    width: 99vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-us {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.information, .offering {
+    margin: 25px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.information h2, .offering h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.information p, .offering p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .information, .offering {
+        font-size: 16px;
+    }
+
+    .information h2, .offering h2 {
+        font-size: 20px;
+    }
+}
+
+#dato {
+    color: orangered;
+}
+.homepage-link {
+    text-decoration: none;
+    color: black;
+}
+.homepage-link:hover {
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}

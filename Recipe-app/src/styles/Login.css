@@ -1,0 +1,136 @@
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-login {
+    font-size: 45px;
+    color: rgb(206, 56, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: orangered;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+.login-form input:focus {
+    border: 1px solid #434343;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.login-form button:hover{
+    transform: scale(1.02);
+}
+
+.login-form p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.alternative-login-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-form a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: orangered;
+    text-decoration: none;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.alternative-login-icon{
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin: 5px;
+    font-size: 25px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.alternative-login-icon:hover{
+    transform: scale(1.1);
+    background-color: rgb(236, 236, 236);
+}
+
+#facebook-icon {
+    color: blue;
+}
+
+#signup-link:hover{
+    text-decoration: underline;
+}
