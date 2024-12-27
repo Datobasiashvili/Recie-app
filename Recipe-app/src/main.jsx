@@ -4,7 +4,5 @@ import './styles/index.css'
 import App from './Components/App.jsx'
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter basename="/Recipe-app/">
-        <App />
-    </BrowserRouter>
+    <App />
 )
