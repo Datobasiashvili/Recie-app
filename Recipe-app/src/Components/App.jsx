@@ -23,7 +23,9 @@ const router = createBrowserRouter(createRoutesFromElements(
 
               
         </>
-));
+), {
+    basename: '/Recipe-app/'  // Set the basename for GitHub Pages subdirectory
+});
 
 function App(){
 
