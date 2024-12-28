@@ -102,3 +102,57 @@ body {
 .top-right-button-clicked:hover {
     background-color: rgb(17, 17, 17);
 }
+
+@media (max-width: 768px) {
+    .home-page {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .recipe {
+        padding: 5px;
+    }
+
+    .image-container{
+        height: 500px;
+    }
+    .image-container img {
+        height: 100%;
+    }
+
+    .top-right-button, .top-right-button-clicked {
+        font-size: 30px;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    .home-page a:hover h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-page {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .recipe {
+        padding: 5px;
+    }
+
+    .recipe img {
+        height: 120px; /* Adjust height as needed */
+    }
+
+    .top-right-button, .top-right-button-clicked {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .home-page a:hover h1 {
+        font-size: 16px;
+    }
+}

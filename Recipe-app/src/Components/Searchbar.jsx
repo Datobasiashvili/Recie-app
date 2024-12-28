@@ -30,7 +30,7 @@ export default function Searchbar({ recipeArr }){
                 <div className='search-bar'>
                     <label htmlFor='search'><FaSearch id='search-icon' /></label>
                     <input
-                        autocomplete="off" 
+                        autoComplete="off" 
                         value={query}
                         id='search'
                         type='search' 

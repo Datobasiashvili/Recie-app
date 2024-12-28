@@ -26,7 +26,7 @@ function Home({ data, handleClick, clickedButtons, isClicked }) {
                         >
                             <div className='recipe'> 
                                 <div className='image-container'>
-                                    <img src={recipe.image} alt={recipe.name} width='100' height='100' />
+                                    <img src={recipe.image} alt={recipe.name} />
                                     <button 
                                     className={clickedButtons[recipe.id] ? 'top-right-button-clicked' : 'top-right-button' }
                                     value={recipe.id} 
