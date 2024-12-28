@@ -1,16 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../styles/Home.css';
 import { FaRegHeart } from "react-icons/fa"; //heart icon from react-icons
-import { useState } from 'react';
 
 import Navbar from './Navbar';
 
-function Home({ data, handleClick, clickedButtons, isClicked }) {
+function Home({ data, handleClick, clickedButtons }) {
 
     const handleButtonClick = (event, recipeId) => {
         event.preventDefault(); //stoping my Link to get activated by pressing the favorite button.
         handleClick(event);
-        isClicked(recipeId);
     }
 
     return (

@@ -103,37 +103,53 @@
     }
 
     .hover-text {
+        text-decoration: none;
         font-size: 10px;
         visibility: visible;
+        color: white;
     }
 
-    .nav-links {
+    .nav-links a{
         text-decoration: none;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .nav-header {
-        height: 60px;
+        height: auto;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; 
         padding: 10px;
     }
 
     .title {
-        font-size: 20px;
-        margin-left: 0;
+        font-size: 25px;
+        margin: 5px 0;
+        text-align: center; 
+    }
+
+
+    .nav-links {
+        justify-content: space-around;
+        width: 100%;
+        margin: 10px 0 0 0;
     }
 
     .icon-container {
-        margin-top: 10px;
+        margin: 5px; 
+        width: 45px;
+        height: 45px;
     }
 
     .icon {
-        font-size: 20px;
+        font-size: 18px; 
     }
 
     .hover-text {
         font-size: 10px;
+    }
+
+    .searchbar {
+        width: 100%;
     }
 }

@@ -28,7 +28,7 @@ function Login() {
                             <FaLock className='input-container-icon' />
                             <input id='password' type='password' name='password' placeholder='Password' autoComplete="off" />
                         </div>
-                        <button type='submit'>Sign in</button>
+                        <button type='submit' onClick={(e) => e.preventDefault()}>Sign in</button>
                         <p>Or continue with</p>
                         <div className='alternative-login-container'>
                             <FcGoogle  className='alternative-login-icon'></FcGoogle>
@@ -37,7 +37,7 @@ function Login() {
                         <Link to='/signup' id='signup-link'>Don't have an account? Sign up</Link>
                     </form>
                 </div>
-                <div className="image-container">
+                <div className="login-image-container">
                     <img src="https://whiskedawaykitchen.com/wp-content/uploads/2024/05/khinkali-recipe-8.jpg" alt="Login Image" />
                 </div>
             </div>

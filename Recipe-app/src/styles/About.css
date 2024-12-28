@@ -47,3 +47,10 @@
     text-decoration: underline;
     text-decoration-color: orangered;
 }
+
+@media (max-width: 480px) {
+    .about-us {
+        width: 90%;
+        margin-top: 200px;
+    }
+}

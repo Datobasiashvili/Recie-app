@@ -54,4 +54,44 @@
 }
 
 
+@media (max-width: 870px) {
+    .recipe-information {
+        flex-direction: column;
+    }
+
+    .img-container {
+        height: 300px;
+    }
+
+    .img-container img {
+        height: 100%;
+    }
+
+    .description {
+        padding: 10px;
+    }
+
+    .recipe-title {
+        font-size: 40px;
+        margin-left: 35px;
+    }
+
+    .recipe-title::after {
+        width: 300px;
+    }
+
+    .description li {
+        font-size: 21px;
+    }
+
+    .description ul {
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .recipe-page-name {
+        margin-top: 7px;
+    }
+}
+
 
